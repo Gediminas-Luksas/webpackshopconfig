@@ -1,0 +1,25 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "scss-loader": "0.0.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "develop": "webpack-dev-server --config webpack.config.dev.js --color"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "sass-loader": "^7.1.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
